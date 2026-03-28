@@ -1,6 +1,6 @@
 # Global Digital Collaboration 2026 Organizer Hub
 
-This repository contains the MkDocs site for the Global Digital Collaboration 2026 organizer hub. The site is public on GitHub Pages, but the content is written for conference organizers, working groups, and task force participants.
+This repository contains the MkDocs site for the Global Digital Collaboration 2026 organizer hub. The content is written for conference organizers, working groups, and task force participants.
 
 The structure and tooling are intentionally aligned with the OpenWallet Foundation TAC site and use the same `zensical`-powered publishing workflow.
 
@@ -8,14 +8,17 @@ The structure and tooling are intentionally aligned with the OpenWallet Foundati
 
 The site is published at:
 
-- [https://gdc26.github.io/](https://gdc26.github.io/)
+- [https://gdc26-organizer-hub.pages.dev/](https://gdc26-organizer-hub.pages.dev/)
+
+Access is restricted through Cloudflare Access.
 
 ## Tech stack
 
 - [MkDocs](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [Zensical](https://zensical.org/)
-- GitHub Pages via GitHub Actions
+- Cloudflare Pages
+- Cloudflare Access
 - `uv` / `uvx` for local and CI execution
 
 ## Repository layout
@@ -28,7 +31,7 @@ docs/
   meetings/              # Meeting notes and cadence
   task-forces/           # Task force landing pages
   assets/                # Logo and icon assets
-.github/workflows/       # GitHub Pages deployment workflow
+.github/workflows/       # Cloudflare Pages deployment workflow
 ```
 
 ## Local development
@@ -60,7 +63,7 @@ Non-technical contributors can update most of the site directly from the GitHub 
 2. Browse to the page you want to change under `docs/`.
 3. Click the pencil icon to edit the Markdown file in GitHub.
 4. Commit the change directly to `main` or open a pull request.
-5. GitHub Actions will rebuild and publish the site automatically after the change is merged.
+5. GitHub Actions will rebuild and deploy the site to Cloudflare Pages automatically after the change is merged.
 
 Typical files to edit:
 
