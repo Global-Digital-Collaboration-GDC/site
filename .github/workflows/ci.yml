@@ -8,20 +8,13 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  deployments: write
 
 jobs:
   deploy:
     if: github.event.repository.fork == false
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
       - name: Checkout repository
         uses: actions/checkout@v5
 
@@ -29,13 +22,15 @@ jobs:
         uses: astral-sh/setup-uv@v6
 
       - name: Build site
-        run: uvx zensical build --config-file mkdocs.yml --clean
+        run: uvx --from zensical zensical build --config-file mkdocs.yml --clean
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: site
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: >-
+            pages deploy site
+            --project-name=gdc26-organizer-hub
+            --branch=main
