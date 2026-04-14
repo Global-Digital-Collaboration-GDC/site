@@ -23,6 +23,13 @@ Develop a shared organizer view on trust registries as a conference theme, inclu
 - Task force lead: `TBD`
 - Supporting contributors: `TBD`
 
+## GitHub resources
+
+- [Repository](https://github.com/Global-Digital-Collaboration-GDC/trust-registries)
+- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki)
+- [Issues](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/issues)
+- [Discussions](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/discussions)
+
 ## Open questions
 
 - Which communities and standards bodies should be reflected?

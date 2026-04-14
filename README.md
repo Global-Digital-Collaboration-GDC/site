@@ -59,7 +59,7 @@ uv run zensical build --clean
 
 Non-technical contributors can update most of the site directly from the GitHub web interface.
 
-1. Open the repository at `https://github.com/GDC26/gdc26.github.io`.
+1. Open the repository at `https://github.com/Global-Digital-Collaboration-GDC/site`.
 2. Browse to the page you want to change under `docs/`.
 3. Click the pencil icon to edit the Markdown file in GitHub.
 4. Commit the change directly to `main` or open a pull request.

@@ -23,6 +23,13 @@ Explore how age verification can be discussed at GDC 2026 in a way that is priva
 - Task force lead: `TBD`
 - Supporting contributors: `TBD`
 
+## GitHub resources
+
+- [Repository](https://github.com/Global-Digital-Collaboration-GDC/age-verification)
+- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-verification/wiki)
+- [Issues](https://github.com/Global-Digital-Collaboration-GDC/age-verification/issues)
+- [Discussions](https://github.com/Global-Digital-Collaboration-GDC/age-verification/discussions)
+
 ## Open questions
 
 - Which age assurance models should be represented?

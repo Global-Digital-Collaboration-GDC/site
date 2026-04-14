@@ -21,9 +21,8 @@ Edit Markdown files in this repository when a decision or durable update should 
 
 ### Use the wiki
 
-Use the [project wiki](https://github.com/GDC26/gdc26.github.io/wiki) for evolving notes, draft agendas, and workshop material.
+Use the [site repository wiki](https://github.com/Global-Digital-Collaboration-GDC/site/wiki) for evolving notes, draft agendas, and workshop material.
 
 ### Open issues or pull requests
 
 GitHub issues can track work, and pull requests provide reviewable changes to formal content.
-
