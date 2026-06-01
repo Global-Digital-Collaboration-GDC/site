@@ -92,8 +92,12 @@ extra:
       name: Official website
 extra_css:
   - stylesheets/header-barcode.css
+extra_javascript:
+  - javascripts/task-force-nav.js
 nav:
   - Home: index.md
   - Task Forces:
     - task-forces/index.md
-    - Age Assurance: task-forces/age-assurance/index.md
+    - Age Assurance:
+      - task-forces/age-assurance/index.md
+      - Participant Roster: task-forces/age-assurance/participant-roster.md
