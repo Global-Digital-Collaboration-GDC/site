@@ -14,7 +14,7 @@ Welcome to the working space for **Global Digital Collaboration 2026**.
 ## Quick links
 
 
--   :material-account-group:{ .lg .middle } __[Task Forces](task-forces/index.md)__
+-   __[Task Forces](task-forces/index.md)__
 
     ---
 
