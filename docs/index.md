@@ -2,29 +2,14 @@
 
 # Global Digital Collaboration 2026
 
-Welcome to the organizer hub for **Global Digital Collaboration 2026**. This site is a lightweight working space for governance material, meeting records, and task force coordination.
-
-Although the site is public, the content is curated for the people helping shape the conference program, partnerships, and operating model.
-
-!!! info "Working space for organizers"
-    Use this hub for stable content people need to find quickly: governance pages, meeting notes, task force scope, and key links. Use the wiki for rougher drafts and scratch coordination.
-
-## What this site is for
-
-- Capture shared decisions in a visible, versioned place
-- Keep meeting notes and action items easy to find
-- Provide a home for task force work between calls
-- Link the website and GitHub workspaces into one organizer workflow
+Welcome to the working space for **Global Digital Collaboration 2026**. 
 
 ## Current focus areas
 
-The initial structure reflects the conference themes visible on the main GDC website and the near-term needs of the organizing team:
-
-- council governance and coordination
-- recurring organizer meetings
-- task force collaboration on age verification
-- task force collaboration on trust registries
-- co-organizer collaboration
+- task force on age assurance
+- task force on trust registries
+- task force on device api for ID solutions 
+- funds
 
 ## Quick links
 
