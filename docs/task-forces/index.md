@@ -16,19 +16,16 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
 
 <div class="grid cards" markdown>
 
- 
- __[Age Verification](age-verification.md)__
+__[Age Assurance](age-verification.md)__
 
-    ---
+---
 
-    [Repository](https://github.com/Global-Digital-Collaboration-GDC/age-verification)
-    [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-verification/wiki)
-    [Issues](https://github.com/Global-Digital-Collaboration-GDC/age-verification/issues)
-    [Discussions](https://github.com/Global-Digital-Collaboration-GDC/age-verification/discussions)
+[Repository](https://github.com/Global-Digital-Collaboration-GDC/age-verification)
+[Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-verification/wiki)
+[Issues](https://github.com/Global-Digital-Collaboration-GDC/age-verification/issues)
+[Discussions](https://github.com/Global-Digital-Collaboration-GDC/age-verification/discussions)
 
-
-    ---
+---
 
 
 </div>
-

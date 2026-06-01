@@ -33,7 +33,3 @@ AA-TF@globaldigitalcollaboration.org
 - [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-verification/wiki)
 - [Issues](https://github.com/Global-Digital-Collaboration-GDC/age-verification/issues)
 - [Discussions](https://github.com/Global-Digital-Collaboration-GDC/age-verification/discussions)
-
-
-
-
