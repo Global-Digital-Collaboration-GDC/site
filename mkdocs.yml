@@ -92,6 +92,8 @@ extra:
       name: Official website
 extra_css:
   - stylesheets/header-barcode.css
+extra_javascript:
+  - javascripts/task-force-nav.js
 nav:
   - Home: index.md
   - Council:
