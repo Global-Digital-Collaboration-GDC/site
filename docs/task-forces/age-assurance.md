@@ -35,12 +35,14 @@ Interested Stakeholders: Other relevant organizations wishing to participate sho
 
 _How to get involved:_
 
-For more information or to submit an expression of interest, contact <a href="mailto:secretariat@globaldigitalcollaboration.org>secretariat@globaldigitalcollaboration.org</a>.
+For more information or to submit an expression of interest, contact <a href="mailto:secretariat@globaldigitalcollaboration.org">secretariat@globaldigitalcollaboration.org</a>.
+
+[Participant Roster](age-assurance/participant-roster.md)
 
 
 ## Charter
 
-[DRAFT - GDC Age Assurance Task Force Charter .pdf](https://github.com/user-attachments/files/28463122/DRAFT.-.GDC.Age.Assurance.Task.Force.Charter.pdf)
+[:fontawesome-solid-file-pdf: Draft Charter (PDF)](https://github.com/user-attachments/files/28463122/DRAFT.-.GDC.Age.Assurance.Task.Force.Charter.pdf)
 
 
 ## Mailing list

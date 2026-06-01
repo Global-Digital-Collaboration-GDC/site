@@ -10,7 +10,7 @@ The site is published at:
 
 - [https://gdc26-organizer-hub.pages.dev/](https://gdc26-organizer-hub.pages.dev/)
 
-Access is restricted through Cloudflare Access.
+The site is public.
 
 ## Tech stack
 
@@ -18,7 +18,6 @@ Access is restricted through Cloudflare Access.
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - [Zensical](https://zensical.org/)
 - Cloudflare Pages
-- Cloudflare Access
 - `uv` / `uvx` for local and CI execution
 
 ## Repository layout

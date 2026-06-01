@@ -1,15 +1,5 @@
 # Trust Registries
 
-## Status
+## Under development
 
-
-## Objective
-
-
-## GitHub resources
-
-- [Repository](https://github.com/Global-Digital-Collaboration-GDC/trust-registries)
-- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki)
-- [Issues](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/issues)
-- [Discussions](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/discussions)
-
+The Trust Registries Task Force materials are currently in draft and will be published here when they are ready.

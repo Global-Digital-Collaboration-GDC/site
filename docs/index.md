@@ -1,4 +1,4 @@
-[//]: # (SPDX-License-Identifier: CC-BY-4.0)
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
 # Global Digital Collaboration 2026
 
