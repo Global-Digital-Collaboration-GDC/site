@@ -4,7 +4,7 @@ GDC Task Forces: Driving Strategic Implementation
 
 The Global Digital Collaboration (GDC) deploys Task Forces as agile, results-oriented instruments. Each Task Force addresses a focused challenge, explores shared technical approaches, and delivers measurable outcomes—including pilots and proof-of-concepts—within a defined timeframe.
 
-Operating Principles
+## Operating Principles
 
 GDC Task Forces operate under a framework of efficiency and multi-stakeholder cooperation:
 
@@ -16,12 +16,10 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
 
 <div class="grid cards" markdown>
 
-__[Age Assurance](age-verification.md)__
+__[Age Assurance](age-assurance.md)__
 
-[Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-verification/wiki)
+__[Trust Registries](trust-registries.md)__
 
-
----
-
+Under development.
 
 </div>
