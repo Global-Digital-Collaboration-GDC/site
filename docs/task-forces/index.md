@@ -14,10 +14,6 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
 - These mechanisms facilitate cooperation without replacing the authority of regulators or formal standards bodies.
 - Progress is achieved through "light rough consensus," with regular strategic briefings provided to the GDC Council.
 
-
-
-## Active task forces
-
 <div class="grid cards" markdown>
 
  __[Age Verification](age-verification.md)__
@@ -29,18 +25,9 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
     [Issues](https://github.com/Global-Digital-Collaboration-GDC/age-verification/issues)
     [Discussions](https://github.com/Global-Digital-Collaboration-GDC/age-verification/discussions)
 
--   :material-file-certificate-outline:{ .lg .middle } __[Trust Registries](trust-registries.md)__
 
     ---
 
-    Shape a practical conference narrative for trust registries, including governance approaches, interoperability models, and representative use cases.
-
-    [Open Task Force](trust-registries.md){ .md-button .md-button--primary }
-
-    [Repository](https://github.com/Global-Digital-Collaboration-GDC/trust-registries)
-    [Wiki](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki)
-    [Issues](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/issues)
-    [Discussions](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/discussions)
 
 </div>
 
