@@ -1,4 +1,4 @@
-# Age Assurance Task Force
+# Age Assurance
 
 ## Bridging the Global Gap in Digital Safety: The Age Assurance Task Force 
 
@@ -37,7 +37,7 @@ _How to get involved:_
 
 For more information or to submit an expression of interest, contact <a href="mailto:secretariat@globaldigitalcollaboration.org">secretariat@globaldigitalcollaboration.org</a>.
 
-[Participant Roster](age-assurance/participant-roster.md)
+[Participant Roster](participant-roster.md)
 
 
 ## Charter

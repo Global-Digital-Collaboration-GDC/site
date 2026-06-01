@@ -24,5 +24,3 @@
 - UK
 - VISA
 - W3C
-
-[View the source wiki page](https://github.com/Global-Digital-Collaboration-GDC/age-assurance/wiki/Participant-Roster)

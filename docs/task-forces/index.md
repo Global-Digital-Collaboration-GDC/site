@@ -16,7 +16,7 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
 
 <div class="grid cards" markdown>
 
-__[Age Assurance](age-assurance.md)__
+__[Age Assurance](age-assurance/)__
 
 __[Trust Registries](trust-registries.md)__
 

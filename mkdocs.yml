@@ -27,7 +27,6 @@ theme:
   features:
     - content.code.copy
     - content.action.edit
-    - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.instant
@@ -111,7 +110,7 @@ nav:
   - Task Forces:
     - task-forces/index.md
     - Age Assurance:
-      - task-forces/age-assurance.md
+      - task-forces/age-assurance/index.md
       - Participant Roster: task-forces/age-assurance/participant-roster.md
     - Trust Registries: task-forces/trust-registries.md
   - Co-Organizers:
