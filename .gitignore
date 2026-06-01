@@ -1,5 +1,6 @@
 site/
 .venv/
+.env
 .cache/
 __pycache__/
 .wrangler/
