@@ -2,7 +2,7 @@
 
 ## Working assumptions
 
-The organizer hub should remain:
+The hub should remain:
 
 - practical rather than ceremonial
 - transparent by default
@@ -26,4 +26,3 @@ Formal content belongs in this site. Brainstorms, scratch notes, and evolving ch
 ### Time-box task forces
 
 Task forces should have a clear objective, a lead, and an expected review date.
-

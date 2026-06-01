@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-labelledby="title desc">
   <title id="title">Global Digital Collaboration 2026</title>
-  <desc id="desc">Simple logo for the GDC 2026 organizer hub.</desc>
+  <desc id="desc">Simple logo for the GDC 2026 hub.</desc>
   <rect width="320" height="80" rx="16" fill="#0f172a"/>
   <circle cx="42" cy="40" r="24" fill="#0ea5e9"/>
   <circle cx="42" cy="40" r="10" fill="#f8fafc"/>
   <text x="78" y="34" fill="#f8fafc" font-family="Arial, sans-serif" font-size="20" font-weight="700">GDC 2026</text>
-  <text x="78" y="56" fill="#bae6fd" font-family="Arial, sans-serif" font-size="13">Organizer Hub</text>
+  <text x="78" y="56" fill="#bae6fd" font-family="Arial, sans-serif" font-size="13">Hub</text>
 </svg>

@@ -1,6 +1,6 @@
-# Global Digital Collaboration 2026 Organizer Hub
+# Global Digital Collaboration 2026 Hub
 
-This repository contains the MkDocs site for the Global Digital Collaboration 2026 organizer hub. The content is written for conference organizers, working groups, and task force participants.
+This repository contains the MkDocs site for the Global Digital Collaboration 2026 hub. The content is written for the GDC community, working groups, and task force participants.
 
 The structure and tooling are intentionally aligned with the OpenWallet Foundation TAC site and use the same `zensical`-powered publishing workflow.
 
@@ -8,7 +8,7 @@ The structure and tooling are intentionally aligned with the OpenWallet Foundati
 
 The site is published at:
 
-- [https://gdc26-organizer-hub.pages.dev/](https://gdc26-organizer-hub.pages.dev/)
+- [https://gdc26-hub.pages.dev/](https://gdc26-hub.pages.dev/)
 
 The site is public.
 
@@ -72,7 +72,7 @@ Typical files to edit:
 - Task force pages: `docs/task-forces/*.md`
 - Navigation labels/order: `mkdocs.yml`
 
-## Notes for organizers
+## Notes for contributors
 
 - The site is written in English.
 - This repository can link out to the GitHub wiki for longer-form collaborative notes.

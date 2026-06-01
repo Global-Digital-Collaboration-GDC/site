@@ -1,7 +1,7 @@
 [project]
-name = "gdc26-organizer-hub"
+name = "gdc26-hub"
 version = "0.1.0"
-description = "Internal-use documentation site for Global Digital Collaboration 2026 organizers."
+description = "Documentation site for the Global Digital Collaboration 2026 hub."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

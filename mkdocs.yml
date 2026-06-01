@@ -1,9 +1,9 @@
 site_name: Global Digital Collaboration 2026
-site_description: Organizer hub for the Global Digital Collaboration 2026 conference.
+site_description: Hub for the Global Digital Collaboration 2026 conference.
 repo_name: Global-Digital-Collaboration-GDC/site
 repo_url: https://github.com/Global-Digital-Collaboration-GDC/site
 edit_uri: edit/main/docs/
-copyright: "Copyright &copy; Global Digital Collaboration 2026<br/>Working documents for organizers"
+copyright: "Copyright &copy; Global Digital Collaboration 2026<br/>Working documents for the GDC community"
 theme:
   name: material
   favicon: assets/project-icon.svg
