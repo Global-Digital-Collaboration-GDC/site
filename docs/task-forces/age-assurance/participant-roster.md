@@ -1,7 +1,5 @@
 # Participant Roster
 
-The Age Assurance Task Force participant roster is maintained in the task force wiki.
-
 - AdNovum
 - Ayra
 - AAMVA
