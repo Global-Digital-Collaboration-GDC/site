@@ -20,13 +20,9 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
 
 <div class="grid cards" markdown>
 
--   :material-account-check-outline:{ .lg .middle } __[Age Verification](age-verification.md)__
+ __[Age Verification](age-verification.md)__
 
     ---
-
-    Explore how age verification should be framed at GDC 2026, balancing privacy, safety, regulation, interoperability, and implementation realism.
-
-    [Open Task Force](age-verification.md){ .md-button .md-button--primary }
 
     [Repository](https://github.com/Global-Digital-Collaboration-GDC/age-verification)
     [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-verification/wiki)
@@ -48,15 +44,3 @@ GDC Task Forces operate under a framework of efficiency and multi-stakeholder co
 
 </div>
 
-## Suggested task force format
-
-Each task force page should track:
-
-- objective
-- lead and contributors
-- expected outputs
-- review date
-- open questions
-
-!!! warning "Keep these time-boxed"
-    If a task force starts turning into a standing body, it should probably become a different kind of working group or move into the wiki/project structure.
