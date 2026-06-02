@@ -27,11 +27,11 @@ The Task Force is co-chaired by representatives from the public and private sect
 
 _Who is participating?_
 
-GDC Community: All GDC Council members, co-organizers, and their communities are eligible and encouraged to participate. 
+- GDC Community: All GDC Council members, co-organizers, and their communities are eligible and encouraged to participate. 
 
-Knowledge Partners: The Task Force may invite liaisons, external experts, and observers on an ad hoc basis—specifically those actively implementing relevant solutions—to contribute subject matter expertise. 
+- Knowledge Partners: The Task Force may invite liaisons, external experts, and observers on an ad hoc basis—specifically those actively implementing relevant solutions—to contribute subject matter expertise. 
 
-Interested Stakeholders: Other relevant organizations wishing to participate should express their interest to the Co-Leads through the Secretariat.
+- Interested Stakeholders: Other relevant organizations wishing to participate should express their interest to the Co-Leads through the Secretariat.
 
 _How to get involved:_
 
