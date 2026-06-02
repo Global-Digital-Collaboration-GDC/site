@@ -6,9 +6,9 @@
 The protection of minors from age-restricted products and content is a global necessity that transcends geographic boundaries and device types. Whether in the physical or digital world, ensuring a safe environment for children requires a coordinated, interoperable approach. To address this, the GDC Age Assurance Task Force has been established to drive practical cooperation across existing and emerging technologies.
 
 
-**The Mission**
+**Background and Scope**
 
-Background and Scope The Task Force is designed as a light, multistakeholder, time-bound, and non-binding cooperation mechanism. It does not seek to replace the vital work of regulators, national authorities, or standards development organizations. Instead, it focuses on operationalizing practical compatibility to ensure age signals remain mutually recognizable and functional across borders.
+The Task Force is designed as a light, multistakeholder, time-bound, and non-binding cooperation mechanism. It does not seek to replace the vital work of regulators, national authorities, or standards development organizations. Instead, it focuses on operationalizing practical compatibility to ensure age signals remain mutually recognizable and functional across borders.
 
 ## Core Objectives 
 
@@ -16,9 +16,9 @@ The Task Force aims to develop a shared set of principles to guide technical and
 
 **Key milestones include:**
 
-Proof-of-Concept Projects: Utilizing existing solutions for cross-border interoperability testing (including both verifiable credentials and non-VC based approaches). 
+- Proof-of-Concept Projects: Utilizing existing solutions for cross-border interoperability testing (including both verifiable credentials and non-VC based approaches). 
 
-Demonstrative Pilots: Supporting pilot fragments specifically aligned with the upcoming Geneva milestone.
+- Demonstrative Pilots: Supporting pilot fragments specifically aligned with the upcoming Geneva milestone.
 
 
 ## Membership and Participation 
