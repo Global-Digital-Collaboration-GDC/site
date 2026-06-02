@@ -1,8 +1,5 @@
 # Global Digital Collaboration 2026 Hub
 
-This repository contains the MkDocs site for the Global Digital Collaboration 2026 hub. The content is written for the GDC community, working groups, and task force participants.
-
-The structure and tooling are intentionally aligned with the OpenWallet Foundation TAC site and use the same `zensical`-powered publishing workflow.
 
 ## Live site
 
