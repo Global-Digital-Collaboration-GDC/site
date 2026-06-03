@@ -36,3 +36,9 @@ Mailing list: daisi@globaldigitalcollaboration.org
 ## Participation
 
 For more information or to submit an expression of interest, contact <a href="mailto:secretariat@globaldigitalcollaboration.org">secretariat@globaldigitalcollaboration.org</a>.
+
+## GitHub resources
+
+- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/daisi/wiki)
+- [Discussions](https://github.com/Global-Digital-Collaboration-GDC/daisi/discussions)
+- [Issues](https://github.com/Global-Digital-Collaboration-GDC/daisi/issues)
