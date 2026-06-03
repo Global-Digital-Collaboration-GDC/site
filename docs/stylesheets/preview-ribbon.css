@@ -1,0 +1,29 @@
+.gdc-preview-ribbon {
+  position: fixed;
+  top: 28px;
+  right: -52px;
+  z-index: 20;
+  width: 220px;
+  transform: rotate(45deg);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: #b42318;
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 44.984rem) {
+  .gdc-preview-ribbon {
+    top: 18px;
+    right: -64px;
+    width: 210px;
+    font-size: 0.56rem;
+    line-height: 1.65rem;
+  }
+}

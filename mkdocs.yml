@@ -92,8 +92,10 @@ extra:
       name: Official website
 extra_css:
   - stylesheets/header-barcode.css
+  - stylesheets/preview-ribbon.css
 extra_javascript:
   - javascripts/task-force-nav.js
+  - javascripts/preview-ribbon.js
 nav:
   - Home: index.md
   - Task Forces:
@@ -101,3 +103,7 @@ nav:
     - Age Assurance:
       - task-forces/age-assurance/index.md
       - Participant Roster: task-forces/age-assurance/participant-roster.md
+    - Trust Registries:
+      - task-forces/trust-registries/index.md
+    - DAISi:
+      - task-forces/daisi/index.md
