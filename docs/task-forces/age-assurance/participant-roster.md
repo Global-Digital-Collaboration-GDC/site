@@ -11,7 +11,6 @@
 - Gates Foundation
 - GSMA
 - Google (Co-Lead)
-- IAB/IETF
 - IEEE
 - ISOC
 - Mastercard
