@@ -12,9 +12,9 @@ The Task Force initially aims to:
 - Advocate for the secure and privacy-preserving verification of identity information in digital wallets across diverse digital ecosystems.
 - Promote greater alignment through a common approach and reduce fragmentation within the digital identity landscape.
 
-## GitHub resources
+## Resources
 
+- Charter, Meeting Notes, Participant Roster available at the Wiki: https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki
 - [Repository](https://github.com/Global-Digital-Collaboration-GDC/trust-registries)
-- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki)
 - [Issues](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/issues)
 - [Discussions](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/discussions)
