@@ -14,7 +14,8 @@ The Task Force initially aims to:
 
 ## Resources
 
-- Charter, Meeting Notes, Participant Roster available at the Wiki: https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki
+- About GDC Task Forces https://globaldigitalcollaboration.org/taskforces 
+- Trust Registries TF Charter, Meeting Notes, Participant Roster available at the Wiki: https://github.com/Global-Digital-Collaboration-GDC/trust-registries/wiki
 - [Repository](https://github.com/Global-Digital-Collaboration-GDC/trust-registries)
 - [Issues](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/issues)
 - [Discussions](https://github.com/Global-Digital-Collaboration-GDC/trust-registries/discussions)
