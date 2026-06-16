@@ -45,10 +45,6 @@ For more information or to submit an expression of interest, contact <a href="ma
 [:fontawesome-solid-file-pdf: Draft Charter (PDF)](https://github.com/user-attachments/files/28463122/DRAFT.-.GDC.Age.Assurance.Task.Force.Charter.pdf)
 
 
-## Mailing list
-
-<a href="mailto:AA-TF@globaldigitalcollaboration.org">AA-TF@globaldigitalcollaboration.org</a>
-
 ## GitHub resources
 
 - [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-assurance/wiki)
