@@ -18,15 +18,15 @@ The Task Force aims to establish hardware requirements and define a unified Devi
 
 Its work will focus on:
 
--Standardized Device API & Interoperability: Develop a functional specification for a universal Device API across different platforms, defining security requirements spanning cryptography, secure services, and core wallet functions, while providing a standardized interface for accessing security components, including trusted hardware and secure applications.
+- Standardized Device API & Interoperability: Develop a functional specification for a universal Device API across different platforms, defining security requirements spanning cryptography, secure services, and core wallet functions, while providing a standardized interface for accessing security components, including trusted hardware and secure applications.
 
--Establishing Common Architecture: Create common architectural approaches for Wallet Instance, Trusted Hardware, and Secure Application implementations across diverse device types and manufacturers.
+- Establishing Common Architecture: Create common architectural approaches for Wallet Instance, Trusted Hardware, and Secure Application implementations across diverse device types and manufacturers.
 
--Defining Certification Standards: Establish and align with international certification requirements for wallet solutions to achieve a high Level of Assurance (LoA), ensuring trust, security, and compliance for cross-border digital identity deployments.
+- Defining Certification Standards: Establish and align with international certification requirements for wallet solutions to achieve a high Level of Assurance (LoA), ensuring trust, security, and compliance for cross-border digital identity deployments.
 
--Ensuring Sovereignty: Define principles that safeguard users' freedom to choose hardware and ecosystems independently while ensuring secure, reliable, and interoperable access to critical public services across devices, and actively align stakeholders across the public sector, private sector, Member States, Standards Development Organizations (SDOs), and industry.
+- Ensuring Sovereignty: Define principles that safeguard users' freedom to choose hardware and ecosystems independently while ensuring secure, reliable, and interoperable access to critical public services across devices, and actively align stakeholders across the public sector, private sector, Member States, Standards Development Organizations (SDOs), and industry.
 
--Enabling Biometric Authentication: Leverage secure hardware available across diverse device types and manufacturers, while addressing biometric fragmentation across modalities and improving the accuracy of on-device biometric solutions.
+- Enabling Biometric Authentication: Leverage secure hardware available across diverse device types and manufacturers, while addressing biometric fragmentation across modalities and improving the accuracy of on-device biometric solutions.
 
 
 ## Participation
