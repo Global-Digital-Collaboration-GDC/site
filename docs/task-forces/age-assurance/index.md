@@ -37,16 +37,9 @@ _How to get involved:_
 
 For more information or to submit an expression of interest, contact <a href="mailto:secretariat@globaldigitalcollaboration.org">secretariat@globaldigitalcollaboration.org</a>.
 
-[Participant Roster](participant-roster.md)
-
-
-## Charter
-
-[:fontawesome-solid-file-pdf: Draft Charter (PDF)](https://github.com/user-attachments/files/28463122/DRAFT.-.GDC.Age.Assurance.Task.Force.Charter.pdf)
-
 
 ## GitHub resources
 
-- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-assurance/wiki)
+- Charter, participant roster, meeting notes available at [Wiki](https://github.com/Global-Digital-Collaboration-GDC/age-assurance/wiki)
 - [Discussions](https://github.com/Global-Digital-Collaboration-GDC/age-assurance/discussions)
 - [Issues](https://github.com/Global-Digital-Collaboration-GDC/age-assurance/issues)
