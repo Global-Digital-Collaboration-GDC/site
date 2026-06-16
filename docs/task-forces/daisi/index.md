@@ -38,6 +38,6 @@ For more information or to submit an expression of interest, contact <a href="ma
 
 ## GitHub resources
 
-- [Wiki](https://github.com/Global-Digital-Collaboration-GDC/daisi/wiki)
+- For Charter, Meeting Notes and Participant Roster please visit [Wiki](https://github.com/Global-Digital-Collaboration-GDC/daisi/wiki)
 - [Discussions](https://github.com/Global-Digital-Collaboration-GDC/daisi/discussions)
 - [Issues](https://github.com/Global-Digital-Collaboration-GDC/daisi/issues)
