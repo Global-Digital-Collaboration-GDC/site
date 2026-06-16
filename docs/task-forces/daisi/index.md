@@ -28,9 +28,6 @@ Its work will focus on:
 
 -Enabling Biometric Authentication: Leverage secure hardware available across diverse device types and manufacturers, while addressing biometric fragmentation across modalities and improving the accuracy of on-device biometric solutions.
 
-## Charter
-[GDC_Device API for ID Solutions (DAISi)_Taskforce_v0.0.0.5.docx.pdf](https://github.com/user-attachments/files/29010457/GDC_Device.API.for.ID.Solutions.DAISi._Taskforce_v0.0.0.5.docx.pdf)
-
 
 ## Participation
 
