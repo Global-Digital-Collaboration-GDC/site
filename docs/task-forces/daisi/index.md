@@ -9,7 +9,7 @@ The Task Force is intended as a light, multistakeholder, time-bound, non-binding
 
 ## Co-Leads
 
-The Task Force is co-chaired by representatives from the public and private sectors: GlobalPlatform, Samsung, and German BSI (Federal Office for Information Security). 
+The Task Force is co-chaired by representatives from the public and private sectors: GlobalPlatform and the German BSI (Federal Office for Information Security). 
 
 
 ## Scope and Objectives 
