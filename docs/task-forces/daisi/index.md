@@ -31,7 +31,6 @@ Its work will focus on:
 ## Charter
 [GDC_Device API for ID Solutions (DAISi)_Taskforce_v0.0.0.5.docx.pdf](https://github.com/user-attachments/files/29010457/GDC_Device.API.for.ID.Solutions.DAISi._Taskforce_v0.0.0.5.docx.pdf)
 
-Mailing list: daisi@globaldigitalcollaboration.org 
 
 ## Participation
 
