@@ -531,14 +531,14 @@ function renderSection(section, fields, metadata) {
 function renderForm(record = null, metadata = {}) {
   const isUpdate = Boolean(record);
   const fields = record?.fields || {};
-  const parentId = fields.parent_submission_id || record?.id;
+  const parentId = record?.id;
   const title = "Session proposal";
   const lede = isUpdate
     ? "Review the details below and submit only when you are ready to create a new version. Your original submission remains stored."
     : "Share the details of your proposed breakout session. The Secretariat will review submitted proposals and follow up as needed.";
   const button = isUpdate ? "Submit updated proposal" : "Submit proposal";
   const meta = isUpdate
-    ? `<p class="meta">Original submission ID: ${escapeHtml(parentId)}</p>`
+    ? `<p class="meta">Current submission ID: ${escapeHtml(parentId)}</p>`
     : "";
   const hiddenParent = isUpdate
     ? `<input type="hidden" name="parent_submission_id" value="${escapeHtml(parentId)}">`
@@ -655,6 +655,9 @@ export async function onRequestGet({ request, env }) {
       return renderError("We could not load this proposal. The link may be invalid or expired.", 404);
     }
     const latest = await findLatestVersion(env, record);
+    if (latest.id !== record.id && latest.fields?.new_update_url) {
+      return Response.redirect(latest.fields.new_update_url, 302);
+    }
     return renderForm(latest, metadata);
   } catch (error) {
     console.error(error);
@@ -672,13 +675,41 @@ async function findRecordByToken(env, token) {
 }
 
 async function findLatestVersion(env, record) {
-  const rootId = record.fields?.parent_submission_id || record.id;
-  const formula = encodeURIComponent(`OR(RECORD_ID()='${rootId}', {parent_submission_id}='${rootId}')`);
-  const data = await airtableRequest(
-    env,
-    `/${BASE_ID}/${TABLE_ID}?maxRecords=100&filterByFormula=${formula}&sort%5B0%5D%5Bfield%5D=Submitted%20At&sort%5B0%5D%5Bdirection%5D=desc`,
-  );
-  return data.records?.[0] || record;
+  const records = [];
+  let offset = "";
+
+  do {
+    const data = await airtableRequest(
+      env,
+      `/${BASE_ID}/${TABLE_ID}?pageSize=100&fields%5B%5D=parent_submission_id&fields%5B%5D=Submitted%20At&fields%5B%5D=new_update_url${offset ? `&offset=${encodeURIComponent(offset)}` : ""}`,
+    );
+    records.push(...(data.records || []));
+    offset = data.offset || "";
+  } while (offset);
+
+  const descendants = new Set([record.id]);
+  let changed = true;
+
+  while (changed) {
+    changed = false;
+    for (const candidate of records) {
+      const parentId = candidate.fields?.parent_submission_id;
+      if (parentId && descendants.has(parentId) && !descendants.has(candidate.id)) {
+        descendants.add(candidate.id);
+        changed = true;
+      }
+    }
+  }
+
+  const latest = records
+    .filter((candidate) => descendants.has(candidate.id))
+    .sort((a, b) => {
+      const aTime = Date.parse(a.fields?.["Submitted At"] || "");
+      const bTime = Date.parse(b.fields?.["Submitted At"] || "");
+      return bTime - aTime;
+    })[0];
+
+  return latest ? await airtableRequest(env, `/${BASE_ID}/${TABLE_ID}/${latest.id}`) : record;
 }
 
 export async function onRequestPost({ request, env }) {
