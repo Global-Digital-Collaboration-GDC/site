@@ -151,3 +151,38 @@ Deployment details:
 - The GitHub Actions workflow deploys branch `proposals` to Cloudflare Pages so the branch alias can serve `https://proposals.gdc26-hub.pages.dev/`.
 - The normal site host is intentionally passed through to static assets, so `gdc26-hub.pages.dev` remains the Zensical site.
 - Do not test POST submissions against production Airtable without explicit confirmation.
+
+## Google Sheets Sync for Session Proposals
+
+The public/program working spreadsheet is populated from Airtable, but only with the latest version of each proposal.
+
+- Spreadsheet: `Proposed Sessions - GDC Geneva Sep 2-3 2026`
+- Sheet ID: `1TQ-p8CmJ1pwveufnC3AdxwLtCeAM4ylNLlBlQAKnU4s`
+- Live tab: `Sessions received `
+- Backup tab currently exists as: `Copy of Sessions received `
+- Row 1 is the sheet title and remains merged/formatted.
+- Row 2 contains export headers.
+- Column K is the technical key `Root Submission ID`, used to keep one row per proposal family.
+
+Scripts:
+
+- `scripts/export_latest_proposals_to_gsheet.py`: one-time local export builder from Airtable.
+- `scripts/airtable-automation-sync-gsheet.js`: Airtable Automation script that sends the latest proposal data to the Cloudflare sync endpoint.
+- `scripts/google-apps-script-proposals-sync.gs`: optional Google Apps Script Web App fallback, only useful if the operator can deploy Apps Script for the spreadsheet.
+
+Preferred sync endpoint:
+
+- URL: `https://proposals.gdc26-hub.pages.dev/api/sync-sheet`
+- Cloudflare secrets required:
+  - `GDC_SHEET_SYNC_SECRET`
+  - `GOOGLE_SERVICE_ACCOUNT_EMAIL`
+  - `GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY`
+- The Google Sheet must be shared with the service account email as editor.
+
+Operational model:
+
+1. Airtable remains the source of truth.
+2. A new original proposal inserts a row keyed by its own record ID.
+3. A proposal edit creates a new Airtable record with `parent_submission_id`.
+4. The automation resolves the proposal family root and updates the existing spreadsheet row.
+5. The visible `Submission ID` column stores the latest Airtable record ID; `Root Submission ID` stores the stable family key.
