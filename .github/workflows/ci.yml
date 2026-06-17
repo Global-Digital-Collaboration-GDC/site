@@ -49,6 +49,16 @@ jobs:
           --project-name=gdc26-hub
           --branch=preview
 
+      - name: Deploy proposals form to Cloudflare Pages
+        if: github.event_name == 'push' || github.event_name == 'release' || github.event_name == 'workflow_dispatch'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: >-
+          npx wrangler pages deploy site
+          --project-name=gdc26-hub
+          --branch=proposals
+
       - name: Deploy production to Cloudflare Pages
         if: github.event_name == 'release'
         env:

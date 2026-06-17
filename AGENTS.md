@@ -103,6 +103,8 @@ Important fields in `session_proposals`:
 - `parent_submission_id` (`fldOrBkB0a1yJZQjN`): stores the original submission record ID when an update creates a replacement proposal
 - `superseded` (`fldIUa778kf4Zr4JJ`): checkbox used by automation to mark older versions as replaced
 - `update_url` (`fldo8Xm0bvna5IBKG`): formula that builds the prefilled Airtable form URL sent in confirmation emails
+- `edit_token` (`fld2D3V1lPmpqs497`): random token used by the Cloudflare proposal form edit URL
+- `new_update_url` (`fldF923yIpS9ki4Vd`): formula that builds the short Cloudflare edit URL from `edit_token`
 
 Known update-link workflow:
 
@@ -126,3 +128,26 @@ Current bug investigation notes:
 - Airtable metadata confirms the `update_url` formula currently hardcodes that `apped7LMeihDW5DIG/pagv4xFzFY9dxzXZl/form` prefix.
 - The confirmed current session proposal form URL is `https://airtable.com/appConzgqW3vehv4S/pagv4xFzFY9dxzXZl/form`.
 - The safest fix is to update only the `update_url` formula prefix from `apped7LMeihDW5DIG` to `appConzgqW3vehv4S`.
+
+## Proposal Form on Cloudflare Pages
+
+The repository includes a Cloudflare Pages Function for the proposal form:
+
+- Function: `functions/index.js`
+- New proposal URL: `https://proposals.gdc26-hub.pages.dev/`
+- Update proposal URL pattern: `https://proposals.gdc26-hub.pages.dev/?token=<edit_token>`
+- Runtime secret required in Cloudflare Pages: `AIRTABLE_API_TOKEN`
+
+The function uses Airtable as the database:
+
+- `GET /` on the proposals subdomain renders a blank proposal form.
+- `GET /?token=...` loads the existing proposal from Airtable and pre-fills the form.
+- `POST /` creates a new Airtable record.
+- If `parent_submission_id` is present, the new record is treated as an updated version of the original proposal.
+- `?id=rec...` is supported as a temporary fallback during migration, but public edit links should use `new_update_url`.
+
+Deployment details:
+
+- The GitHub Actions workflow deploys branch `proposals` to Cloudflare Pages so the branch alias can serve `https://proposals.gdc26-hub.pages.dev/`.
+- The normal site host is intentionally passed through to static assets, so `gdc26-hub.pages.dev` remains the Zensical site.
+- Do not test POST submissions against production Airtable without explicit confirmation.
