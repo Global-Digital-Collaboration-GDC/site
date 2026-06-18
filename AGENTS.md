@@ -168,7 +168,6 @@ Scripts:
 
 - `scripts/export_latest_proposals_to_gsheet.py`: one-time local export builder from Airtable.
 - `scripts/airtable-automation-sync-gsheet.js`: Airtable Automation script that sends the latest proposal data to the Cloudflare sync endpoint.
-- `scripts/google-apps-script-proposals-sync.gs`: optional Google Apps Script Web App fallback, only useful if the operator can deploy Apps Script for the spreadsheet.
 
 Preferred sync endpoint:
 
