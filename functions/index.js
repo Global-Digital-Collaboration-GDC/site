@@ -535,7 +535,7 @@ function renderForm(record = null, metadata = {}) {
   const title = "Session proposal";
   const lede = isUpdate
     ? "Review the details below and submit only when you are ready to create a new version. Your original submission remains stored."
-    : "Share the details of your proposed breakout session. The Secretariat will review submitted proposals and follow up as needed.";
+    : "Share the details of your proposed breakout session.";
   const button = isUpdate ? "Submit updated proposal" : "Submit proposal";
   const meta = isUpdate
     ? `<p class="meta">Current submission ID: ${escapeHtml(parentId)}</p>`
